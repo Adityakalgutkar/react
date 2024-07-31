@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Adityakalgutkar/react/issues"
   },
-  "homepage": "https://github.com/Adityakalgutkar/react#readme"
+  "homepage": "https://github.com/Adityakalgutkar/react#readme",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
 }

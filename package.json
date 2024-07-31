@@ -1,0 +1,19 @@
+{
+  "name": "episode-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adityakalgutkar/react.git"
+  },
+  "author": "aditya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adityakalgutkar/react/issues"
+  },
+  "homepage": "https://github.com/Adityakalgutkar/react#readme"
+}

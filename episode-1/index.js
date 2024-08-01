@@ -1,4 +1,8 @@
 "use strict";
+
+import React from "react";
+import ReactDOM from "react-dom";
+
 const element = React.createElement(
   "h1",
   { className: "react-class", id: "none" },
@@ -21,18 +25,17 @@ root.render(element);
 </div> */
 }
 
-const newElement = React.createElement(
-  "div",
-  { class: "parent" },[
+const newElement = React.createElement("div", { class: "parent" }, [
   React.createElement(
     "div",
     { class: "child" },
     React.createElement("h3", {}, "What's up react")
-  ),  React.createElement(
+  ),
+  React.createElement(
     "div",
     { class: "child2" },
     React.createElement("h3", {}, "What's up react 2")
-  ) ]
-);
+  ),
+]);
 
 root.render(newElement);
